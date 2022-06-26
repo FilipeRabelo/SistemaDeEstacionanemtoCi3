@@ -49,7 +49,7 @@
           <div class="card">
 
             <div class="card-header ">
-              <a title="Novo cadastro <?= $this->router->fetch_class(); ?>" data-toggle="tooltip" data-placement="bottom" href="#" class="btn btn-success ">+ &nbsp; Novo</a>
+              <a href="<?= base_url('usuarios/core/' ); ?>" title="Novo cadastro <?= $this->router->fetch_class(); ?>" data-toggle="tooltip" data-placement="bottom" class="btn btn-success ">+ &nbsp; Novo</a>
             </div>
 
             <div class="card-body">
