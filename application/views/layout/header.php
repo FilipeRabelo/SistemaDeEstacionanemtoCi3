@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="<?= base_url('public/plugins/perfect-scrollbar/css/perfect-scrollbar.css'); ?>">
 
   <!--INICIO POSSO TIRAR ESSES -->
-  <!-- <link rel="stylesheet" href="<?= base_url('public/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css'); ?>">
+  <!-- 
+  <link rel="stylesheet" href="<?= base_url('public/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css'); ?>">
   <link rel="stylesheet" href="<?= base_url('public/plugins/jvectormap/jquery-jvectormap.css'); ?>">
   <link rel="stylesheet" href="<?= base_url('public/plugins/tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.min.css'); ?>">
   <link rel="stylesheet" href="<?= base_url('public/plugins/weather-icons/css/weather-icons.min.css'); ?>">
@@ -30,6 +31,16 @@
   <!--FIM POSSO TIRAR ESSES -->
 
   <link rel="stylesheet" href="<?= base_url('public/dist/css/theme.min.css'); ?>">
+
+  <?php if (isset($styles)) : ?>
+
+    <?php foreach ($styles as $style) : ?>
+
+      <link rel="stylesheet" href="<?= base_url('public/' . $style); ?>">
+
+    <?php endforeach; ?>
+
+  <?php endif; ?>
 
 </head>
 

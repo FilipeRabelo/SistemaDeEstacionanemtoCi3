@@ -2,9 +2,9 @@
    <div class="app-sidebar colored">
 
      <div class="sidebar-header">
-       <a class="header-brand" href="index.html">
+       <a class="header-brand" href="http://localhost/SistemaDeEstacionanemtoCi3/">
          <div class="logo-img">
-           <img src="src/img/brand-white.svg" class="header-brand-img" alt="lavalite">
+           <img src="" class="header-brand-img" alt="">
          </div>
          <span class="text">ThemeKit</span>
        </a>
@@ -19,7 +19,7 @@
 
            <div class="nav-lavel">Navigation</div>
            <div class="nav-item active">
-             <a href="index.html"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a>
+             <a href="http://localhost/SistemaDeEstacionanemtoCi3/usuarios"><i class="ik ik-users "></i><span>Usuarios</span></a>
            </div>
 
            <div class="nav-item">
